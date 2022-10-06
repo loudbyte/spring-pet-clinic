@@ -16,6 +16,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
   </properties>
 
   <dependencies>
@@ -63,9 +64,6 @@
             <goals>
               <goal>repackage</goal>
             </goals>
-            <configuration>
-              <skip>true</skip>
-            </configuration>
           </execution>
         </executions>
       </plugin>
